@@ -1,17 +1,14 @@
-package hudlLoginPage;
-import java.util.Iterator;
-import java.util.List;
+package com.hudl.login;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+public class SuccessfullUserLogin {
 
-public class HudlSuccessfullUserLogin {
-
-	 public static void main(String[] args) {
+ public static void main(String[] args) {
 		 
 		 System.setProperty("webdriver.chrome.driver","D:\\Drivers\\chromedriver_win32\\chromedriver.exe");
 
@@ -57,5 +54,5 @@ public class HudlSuccessfullUserLogin {
 	    	
 	 }
 	 
-	 
+
 }

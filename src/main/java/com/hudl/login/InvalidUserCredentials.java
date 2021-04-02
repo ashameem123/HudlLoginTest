@@ -1,4 +1,4 @@
-package hudlLoginPage;
+package com.hudl.login;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class HudlInvalidLoginCredentials {
+public class InvalidUserCredentials {
 
 	public static void main(String[] args) {
 
@@ -46,7 +46,7 @@ public class HudlInvalidLoginCredentials {
 		String text = driver.findElement(By.xpath("//div[@class='login-error-container']/p")).getText();
 
 		System.out.println(text);
-
+	
 		driver.close();
 
 	}
